@@ -23,6 +23,14 @@
 
   <ItemGroup>
     <Folder Include="Controllers\" />
+    <Folder Include="Interfaces\" />
+    <Folder Include="Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="GenericRepositoryDll">
+      <HintPath>..\..\..\GenericRepositoryDll\GenericRepositoryDll\GenericRepositoryDll\GenericRepositoryDll\bin\Release\net6.0\GenericRepositoryDll.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>

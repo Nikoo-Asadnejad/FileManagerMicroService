@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FileManager.Dtos.FileValidation
 {
-  public class FileValidationSettingModel
+  public class FileValidationSettingInputModel
   {
     public List<string> ValidContentTypes { get; set; }
     public List<string> ValidFormats { get; set; }

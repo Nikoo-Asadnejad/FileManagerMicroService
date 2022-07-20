@@ -1,5 +1,7 @@
 
 using FileManager.Dtos.FileValidation;
+using FileManager.Percistance;
+using FileManager.Percistances;
 using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
@@ -8,7 +10,6 @@ using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
-using static FileManager.Percistance.FileValidationSettings;
 
 namespace ErrorHandlingDll.Utils
 {
@@ -16,7 +17,7 @@ namespace ErrorHandlingDll.Utils
   {
     public const int ImageMinimumBytes = 512;
     public static (bool isValid, string message) ValidateFile(IFormFile file,
-      FileValidationSettingModel validationSetting)
+      FileValidationSettingInputModel validationSetting)
     {
 
       if (file == null)
@@ -35,7 +36,7 @@ namespace ErrorHandlingDll.Utils
           return (false, FileValidationErrors.InvalidSizeError);
 
 
-      if (validationSetting.Type == FileTypes.Image)
+      if (validationSetting.Type == FileMimeTypes.FileTypes.Image)
       {
         if (!IsSafe(file))
           return (false, FileValidationErrors.IncludeMaliciousBytesError);
