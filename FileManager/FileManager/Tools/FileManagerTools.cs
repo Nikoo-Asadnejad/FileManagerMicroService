@@ -2,18 +2,23 @@ namespace FileManager.Tools
 {
   public static class FileManagerTools
   {
-    public static async Task SaveFile(IFormFile file  , string title)
+    public static async Task SaveFile(IFormFile file , string title , string path)
     {
-      var fileName = Path.Combine(title,"-",DateTime.Now.ToString(), Path.GetRandomFileName());
+      string rootPath = "";
+      string filePath = Path.Combine(rootPath, path);
+      string fileName = Path.Combine(title,"-",
+                              DateTimeOffset.UtcNow.ToUnixTimeMilliseconds().ToString(),
+                              file.FileName);
+      string fileFullPath = Path.Combine(filePath,fileName);
 
-      using (var stream = File.Create(fileName))
+      using (FileStream stream = File.Create(fileFullPath))
         await file.CopyToAsync(stream);
   
     }
 
     public static async Task RemoveFile(string path)
     {
-  
+       File.Delete(path);
     }
   }
 }
