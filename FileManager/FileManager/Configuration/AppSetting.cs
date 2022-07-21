@@ -2,13 +2,14 @@ namespace FileManager.Configuration
 {
   public class AppSetting
   {
-    public class Rootobject
-    {
-      public Logging Logging { get; set; }
-      public string AllowedHosts { get; set; }
-    }
 
-    public class Logging
+    public Loggings Logging { get; set; }
+    public string AllowedHosts { get; set; }
+    public string ConnectionString { get; set; }
+    public string UploadDirectory { get; set; }
+
+
+    public class Loggings
     {
       public Loglevel LogLevel { get; set; }
     }
@@ -18,6 +19,7 @@ namespace FileManager.Configuration
       public string Default { get; set; }
       public string MicrosoftAspNetCore { get; set; }
     }
+
 
 
   }
