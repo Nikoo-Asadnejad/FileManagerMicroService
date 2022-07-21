@@ -1,3 +1,5 @@
+using ErrorHandlingDll.Configurations;
+using GenericRepositoryDll.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting.Internal;
 using IHostingEnvironment = Microsoft.AspNetCore.Hosting.IHostingEnvironment;
@@ -13,9 +15,12 @@ namespace FileManager.Configuration
       services.AddEndpointsApiExplorer();
       services.AddSwaggerGen();
       services.Configure<AppSetting>(configuration);
+
+      GenericRepositoryConfigurator.InjectServices(services);
+      ErrorHandlingDllConfigurator.InjectServices(services, configuration);
     }
 
-    public static void AddMiddlewares( WebApplication app)
+    public static void ConfigureAppPipeline( WebApplication app)
     {
       // Configure the HTTP request pipeline.
       if (app.Environment.IsDevelopment())
@@ -29,6 +34,8 @@ namespace FileManager.Configuration
       app.UseAuthorization();
 
       app.MapControllers();
+
+      ErrorHandlingDllConfigurator.ConfigureAppPipeline(app);
 
     }
   }

@@ -63,3 +63,6 @@ D:\web development\projects\FileManagerMicroService\FileManager\FileManager\obj\
 D:\web development\projects\FileManagerMicroService\FileManager\FileManager\obj\Debug\net6.0\ref\FileManager.dll
 D:\web development\projects\FileManagerMicroService\FileManager\FileManager\obj\Debug\net6.0\FileManager.pdb
 D:\web development\projects\FileManagerMicroService\FileManager\FileManager\obj\Debug\net6.0\FileManager.genruntimeconfig.cache
+D:\web development\projects\FileManagerMicroService\FileManager\FileManager\bin\Debug\net6.0\Dlls\ErrorHandlingDll.deps.json
+D:\web development\projects\FileManagerMicroService\FileManager\FileManager\bin\Debug\net6.0\ErrorHandlingDll.dll
+D:\web development\projects\FileManagerMicroService\FileManager\FileManager\bin\Debug\net6.0\ErrorHandlingDll.pdb

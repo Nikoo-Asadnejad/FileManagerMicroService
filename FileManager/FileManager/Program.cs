@@ -7,7 +7,7 @@ FileManagerConfigurator.InjectServices(builder.Services, builder.Configuration);
 
 var app = builder.Build();
 
-FileManagerConfigurator.AddMiddlewares(app);
+FileManagerConfigurator.ConfigureAppPipeline(app);
 
 app.Run();
 
