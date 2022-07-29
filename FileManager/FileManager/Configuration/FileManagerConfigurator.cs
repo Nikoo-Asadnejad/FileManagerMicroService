@@ -1,4 +1,6 @@
 using ErrorHandlingDll.Configurations;
+using FileManager.Interfaces;
+using FileManager.Services;
 using GenericRepositoryDll.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting.Internal;
@@ -15,6 +17,8 @@ namespace FileManager.Configuration
       services.AddEndpointsApiExplorer();
       services.AddSwaggerGen();
       services.Configure<AppSetting>(configuration);
+
+      services.AddScoped<IFileService, FileService>();
 
       GenericRepositoryConfigurator.InjectServices(services);
       ErrorHandlingDllConfigurator.InjectServices(services, configuration);

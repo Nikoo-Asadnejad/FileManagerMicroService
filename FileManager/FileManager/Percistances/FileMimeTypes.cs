@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FileManager.Percistance
+namespace FileManager.Percistances
 {
 
   public readonly struct FileMimeTypes

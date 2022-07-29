@@ -1,6 +1,5 @@
 using FileManager.Configuration;
 using FileManager.Dtos;
-using FileManager.Dtos.ReturnTypes;
 using FileManager.Interfaces;
 using FileManager.Models;
 using FileManager.Tools;
@@ -8,11 +7,11 @@ using GenericRepositoryDll.Repository.GenericRepository;
 using Microsoft.Extensions.Options;
 
 namespace FileManager.Services;
-public class UploadService : IUploadService
+public class FileService : IFileService
 {
   private IRepository<FileData> _repository;
   private AppSetting _appSetting;
-  public UploadService(IRepository<FileData> repository , IOptions<AppSetting> appSetting)
+  public FileService(IRepository<FileData> repository , IOptions<AppSetting> appSetting)
   {
     _repository = repository;
     _appSetting = appSetting.Value;

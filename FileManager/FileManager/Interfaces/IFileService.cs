@@ -1,8 +1,8 @@
 using FileManager.Dtos;
-using FileManager.Dtos.ReturnTypes;
+using FileManager.Models;
 
 namespace FileManager.Interfaces;
-public interface IUploadService
+public interface IFileService
 {
   Task<ReturnModel<UploadReturnModel>> UploadAsync(UploadInputModel uploadInputModel);
 
