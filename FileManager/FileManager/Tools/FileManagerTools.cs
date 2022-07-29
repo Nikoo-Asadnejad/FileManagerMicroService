@@ -1,4 +1,5 @@
 using FileManager.Configuration;
+using FileManager.Percistances;
 
 namespace FileManager.Tools
 {
@@ -11,9 +12,7 @@ namespace FileManager.Tools
       {
         string rootPath = AppConfigs.HostingEnvironment.ContentRootPath;
         string filePath = Path.Combine(rootPath, path);
-        string fileName = Path.Combine(title, "-",
-                                DateTimeOffset.UtcNow.ToUnixTimeMilliseconds().ToString(),
-                                file.FileName);
+        string fileName = Path.Combine(title,DateTimeOffset.UtcNow.ToUnixTimeMilliseconds().ToString(),file.Name);
 
         string fileFullPath = Path.Combine(filePath, fileName);
 
@@ -25,7 +24,7 @@ namespace FileManager.Tools
       catch (Exception ex)
       {
         //add logs
-        return (false, " ");
+        return (false,FileIOErrors.FileSavingFailed);
       }
       
   

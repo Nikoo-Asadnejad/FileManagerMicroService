@@ -5,7 +5,12 @@
       "ProjectGuid": "086a50c9-5fef-4e96-a854-16551b9c4735",
       "DisplayName": "FileManager",
       "ColorIndex": 0
+    },
+    "dc14f09d-553a-4e3c-a4f5-780e105f5846": {
+      "ProjectGuid": "dc14f09d-553a-4e3c-a4f5-780e105f5846",
+      "DisplayName": "FileManagerTests",
+      "ColorIndex": 1
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 2
 }

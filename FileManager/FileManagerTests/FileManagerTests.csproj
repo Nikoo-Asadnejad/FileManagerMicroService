@@ -17,8 +17,11 @@
 
   <ItemGroup>
     <Folder Include="Congigurations\" />
-    <Folder Include="Tools\" />
     <Folder Include="Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FileManager\FileManager.csproj" />
   </ItemGroup>
 
 </Project>
