@@ -12,6 +12,6 @@ public readonly struct FileValidationErrors
 public readonly struct FileIOErrors
 {
   public const string FileSavingFailed = "زخیره فایل با خطا مواجه شد";
-
+  public const string FileDeletingFailed = "حذف فایل با خطا مواجه شد";
 }
 

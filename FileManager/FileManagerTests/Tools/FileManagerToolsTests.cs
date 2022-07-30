@@ -44,7 +44,7 @@ namespace FileManagerTests.Tools
     [TestCase(null, " ")]
     [TestCase(" ", null)]
     [TestCase(" ", " ")]
-    public void SaveFileAsync_SavingFileFail_ReturnFalseAndEmptyString(string title , string path)
+    public void SaveFileAsync_SavingFileFail_ReturnTupleOfFalseAndErrorMessage(string title , string path)
     {
       var result = FileManagerTools.SaveFileAsync(file.Object, title, path).Result;
       Assert.That(result, Is.EqualTo((false, FileIOErrors.FileSavingFailed)));
