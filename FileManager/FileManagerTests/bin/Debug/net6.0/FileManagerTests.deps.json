@@ -620,6 +620,14 @@
         }
       },
       "NUnit3TestAdapter/4.0.0": {},
+      "Sentry/3.20.1": {
+        "runtime": {
+          "lib/net6.0/Sentry.dll": {
+            "assemblyVersion": "3.20.1.0",
+            "fileVersion": "3.20.1.0"
+          }
+        }
+      },
       "Swashbuckle.AspNetCore/6.4.0": {
         "dependencies": {
           "Microsoft.Extensions.ApiDescription.Server": "6.0.5",
@@ -1108,6 +1116,7 @@
           "Microsoft.EntityFrameworkCore.Relational": "6.0.7",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.7",
           "Microsoft.Extensions.DependencyInjection": "6.0.0",
+          "Sentry": "3.20.1",
           "Swashbuckle.AspNetCore": "6.4.0",
           "System.Drawing.Common": "6.0.0",
           "System.Text.Json": "6.0.5"
@@ -1426,6 +1435,13 @@
       "sha512": "sha512-5gCkytgQWL93M5s9Rnl4CfSUhn95VsuMVLYjmZe8K7dNRF7kzrBMPsBTyLNCga5qLW7RM/o591J+HVrV1QMaVQ==",
       "path": "nunit3testadapter/4.0.0",
       "hashPath": "nunit3testadapter.4.0.0.nupkg.sha512"
+    },
+    "Sentry/3.20.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SkI+CaRmdi5W3JA2plmJpjCQ+P49EuoCODmvrcYUGqeWMGwqa8DJWyeUDpso1DD82wYzbQ0RioSAoxG3nUhzjQ==",
+      "path": "sentry/3.20.1",
+      "hashPath": "sentry.3.20.1.nupkg.sha512"
     },
     "Swashbuckle.AspNetCore/6.4.0": {
       "type": "package",

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "z8sQRVP+oLXJMnwKBZ23b5FzDydATnS0yzBYtuA2sF5LygK48wnHDpKYi+m3ak/Q8o6pA1buFU6G2syuU8ZVgg==",
+  "dgSpecHash": "O3MmYHtHm+ydlXOOgVhIA1VdtOEbUbzvXQaLlhVRezRI++bIbedJdnM0E8j7Qv7ICt8RZwrNPyAbqMLOm1AxNw==",
   "success": true,
   "projectFilePath": "D:\\web development\\projects\\FileManagerMicroService\\FileManager\\FileManagerTests\\FileManagerTests.csproj",
   "expectedPackageFiles": [
@@ -45,6 +45,7 @@
     "C:\\Users\\Asus\\.nuget\\packages\\nuget.frameworks\\5.0.0\\nuget.frameworks.5.0.0.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\nunit\\3.13.3\\nunit.3.13.3.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\nunit3testadapter\\4.0.0\\nunit3testadapter.4.0.0.nupkg.sha512",
+    "C:\\Users\\Asus\\.nuget\\packages\\sentry\\3.20.1\\sentry.3.20.1.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",

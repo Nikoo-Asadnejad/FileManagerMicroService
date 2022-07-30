@@ -21,7 +21,7 @@ public class FileService : IFileService
     ReturnModel<UploadReturnModel> result = new();
     var path = _appSetting.UploadDirectory;
 
-    (bool isSuccessfull,string filePath) saveFile =
+    (bool isSuccessfull,string filePath , string message) saveFile =
       await FileManagerTools.SaveFileAsync(uploadInputModel.File ,uploadInputModel.Title,path);
 
     if(!saveFile.isSuccessfull)

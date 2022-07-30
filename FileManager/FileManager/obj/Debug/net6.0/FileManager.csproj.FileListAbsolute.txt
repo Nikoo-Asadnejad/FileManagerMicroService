@@ -66,3 +66,5 @@ D:\web development\projects\FileManagerMicroService\FileManager\FileManager\obj\
 D:\web development\projects\FileManagerMicroService\FileManager\FileManager\bin\Debug\net6.0\Dlls\ErrorHandlingDll.deps.json
 D:\web development\projects\FileManagerMicroService\FileManager\FileManager\bin\Debug\net6.0\ErrorHandlingDll.dll
 D:\web development\projects\FileManagerMicroService\FileManager\FileManager\bin\Debug\net6.0\ErrorHandlingDll.pdb
+D:\web development\projects\FileManagerMicroService\FileManager\FileManager\bin\Debug\net6.0\Sentry.dll
+D:\web development\projects\FileManagerMicroService\FileManager\FileManager\obj\Debug\net6.0\Sentry.Attributes.cs

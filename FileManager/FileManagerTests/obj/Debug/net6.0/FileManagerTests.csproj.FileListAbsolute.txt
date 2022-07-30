@@ -150,3 +150,5 @@ D:\web development\projects\FileManagerMicroService\FileManager\FileManagerTests
 D:\web development\projects\FileManagerMicroService\FileManager\FileManagerTests\obj\Debug\net6.0\ref\FileManagerTests.dll
 D:\web development\projects\FileManagerMicroService\FileManager\FileManagerTests\obj\Debug\net6.0\FileManagerTests.pdb
 D:\web development\projects\FileManagerMicroService\FileManager\FileManagerTests\obj\Debug\net6.0\FileManagerTests.genruntimeconfig.cache
+D:\web development\projects\FileManagerMicroService\FileManager\FileManagerTests\bin\Debug\net6.0\Sentry.dll
+D:\web development\projects\FileManagerMicroService\FileManager\FileManagerTests\obj\Debug\net6.0\Sentry.Attributes.cs

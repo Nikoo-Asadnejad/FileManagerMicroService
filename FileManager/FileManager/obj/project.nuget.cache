@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "2jX5w80bn3hYV510fjvvyv5TVK+2g0FZzxPycCJIWF/OU2LdYOwL5X6EIS/incp5mcryIFQCy64j1bQjVdzrhA==",
+  "dgSpecHash": "HTQj1orYPywEMgNkOKeOdlcz+gn1ERal4RM/83swSzIU4bjgHbXx7FRBtpbvEDkRr3tgW28PoWHHThqV4j62ig==",
   "success": true,
   "projectFilePath": "D:\\web development\\projects\\FileManagerMicroService\\FileManager\\FileManager\\FileManager.csproj",
   "expectedPackageFiles": [
@@ -34,6 +34,7 @@
     "C:\\Users\\Asus\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\Asus\\.nuget\\packages\\sentry\\3.20.1\\sentry.3.20.1.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
